@@ -6,6 +6,10 @@ html {
     box-sizing: border-box;
 }
 
+:root {
+    --text-color-one: hsl(162, 71%, 35%);
+}
+
 .header {
     display: flex;
     flex-direction: row;
@@ -21,15 +25,17 @@ html {
     list-style: none;
     padding-top: 30px;
     gap: 5em;
-    color: hsl(162, 71%, 35%);
+    color: var(--text-color-one);
     
 }
 
 .header-links a {
     text-decoration: none;
-    color: hsl(162, 71%, 35%);
+    color: var(--text-color-one);
 }
 
 #About {
     display:  flex;
+    background-color: #551d038f;
+    color: whitesmoke;
 }
